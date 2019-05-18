@@ -26,7 +26,7 @@
 
 ### 通过邮箱贡献
 
-- 发送邮件到 (report@soblist.org)[mailto:report@soblist.org]。
+- 发送邮件到 report@soblist.org
 
 ### 通过网站贡献
 
