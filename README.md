@@ -22,6 +22,9 @@
 
 ### 通过 GitHub 贡献
 
+- fork 这个项目
+- 在 soblist.json 文件中按照格式增加数据
+- 图片请使用 CDN 外链，建议启用 HTTPS
 - 在本 repo 中提交 PR。
 
 ### 通过邮箱贡献
