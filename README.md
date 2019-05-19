@@ -26,9 +26,13 @@
 
 ### 通过邮箱贡献
 
+ToDo: 建立企业邮箱
+
 - 发送邮件到 report@soblist.org
 
 ### 通过网站贡献
+
+ToDo: 在另一个仓库中[github/soblist-org/report](https://github.com/soblist-org/report)
 
 - 访问 [https://www.soblist.org/report](https://www.soblist.org/report) 并在网站上提交材料。
 
