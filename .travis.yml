@@ -14,6 +14,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $github_token
-  local_dir: front/build
+  local_dir: front/dist
   on:
     branch: master
