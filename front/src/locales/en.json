@@ -1,0 +1,14 @@
+{
+  "name": "name",
+  "picSrc": "picSrc",
+  "addr": "addr",
+  "cases": "cases",
+  "birth": "birth",
+  "activeArea": "activeArea",
+  "idNumber": "idNumber",
+  "isMarried": "isMarried",
+  "schoolName": "schoolName",
+  "companyName": "companyName",
+  "job": "job",
+  "major": "major"
+}
