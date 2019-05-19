@@ -1,5 +1,7 @@
 # Blocklist | 渣男速查清单
 
+[![Build Status](https://travis-ci.org/soblist-org/blocklist.svg?branch=master)](https://travis-ci.org/soblist-org/blocklist)
+
 随着 PUA (Pick up artist) 在男士圈中的流行，渣男越来越多。女性朋友们如果在恋爱中遇到渣男，轻则被骗炮、玩弄感情，重则人财两空。
 
 本项目旨在维护一个客观的、关于渣男的清单，供女性朋友们在恋爱时避雷。
