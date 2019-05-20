@@ -25,4 +25,4 @@ for (let i = 0; i < sobs.length; i++) {
   });
 }
 
-fs.writeFileSync('./dist/' + 'sitemap.xml', sitemapTpl({ urls }));
+fs.writeFileSync('./dist/' + 'sitemap.xml', sitemapTpl({ urls, now: new Date().toISOString() }));
