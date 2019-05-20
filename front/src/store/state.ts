@@ -8,6 +8,8 @@ export interface Case {
   meta: Meta;
   title: string;
   content: string;
+  refUrls: string[];
+  archiveUrl: string;
   images?: string[];
 }
 export interface SonOfBitch {
@@ -19,6 +21,7 @@ export interface SonOfBitch {
   birth: string;
   addedDate: string;
   // Alternative
+  socialMedia?: string[];
   activeArea?: string;
   idNumber?: string;
   isMarried?: boolean;

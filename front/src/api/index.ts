@@ -2,7 +2,7 @@ import * as Axios from 'axios';
 
 const axios = Axios.default.create({
   timeout: 0,
-  withCredentials: true,
+  withCredentials: false,
   transformResponse: [
     (data: any) => {
       try {
