@@ -29,5 +29,38 @@
         ]
       }
     ]
+  },
+  {
+    "name": "林勇",
+    "addr": "湖北省黄冈市浠水县",
+    "schoolName": "成都信息工程学院",
+    "addedDate": "2017-03-09",
+    "socialMedia": [
+      "wechat: deancorso"
+    ],
+    "activeArea": "重庆、成都",
+    "picSrc": "https://img3.doubanio.com/view/group_topic/l/public/p70119953.jpg",
+    "cases": [
+      {
+        "meta": {
+          "year": null,
+          "month": null,
+          "day": null,
+          "addr": "重庆、成都",
+          "archiveUrl": null,
+          "refUrls": [
+            "https://www.douban.com/group/topic/97714193/"
+          ]
+        },
+        "title": "成都渣男 曝光 林勇",
+        "content": "又来了4个姑娘私信我，其中两个是学生，一个重庆的学生，一个新都的学生，都是受害者，加上昨天找我的7个姑娘，还有我，已经有12个都被渣男林勇给骗了。",
+        "images": [
+          "https://img1.doubanio.com/view/group_topic/l/public/p70119957.jpg",
+          "https://img3.doubanio.com/view/group_topic/l/public/p70119960.jpg",
+          "https://img3.doubanio.com/view/group_topic/l/public/p70119950.jpg",
+          "https://img3.doubanio.com/view/group_topic/l/public/p70119952.jpg"
+        ]
+      }
+    ]
   }
 ]
