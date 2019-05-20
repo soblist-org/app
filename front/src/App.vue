@@ -4,12 +4,12 @@
       <b-navbar
         toggleable="lg"
         type="dark"
-        variant="danger"
+        variant="black"
         class="navbar"
       >
         <b-container>
           <b-navbar-brand href="#">
-            <b-img src='https://avatars3.githubusercontent.com/u/50773892?s=40&v=4'>
+            <b-img src='https://res.cloudinary.com/dnuewvqib/image/upload/v1558329391/soblist/sblocklist%E5%89%AF%E6%9C%AC_ayftb3.png'>
             </b-img>
             {{ $t('siteTitle')}}
           </b-navbar-brand>
@@ -85,5 +85,8 @@ export default class App extends Vue {
       color: white;
     }
   }
+}
+.b-navbar-black {
+  background-color: black;
 }
 </style>

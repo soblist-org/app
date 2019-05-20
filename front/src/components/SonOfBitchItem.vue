@@ -46,7 +46,7 @@
               >
                 <label>{{ $t(alternativeField) }}</label>
                 <b-badge
-                  variant="danger"
+                  variant="black"
                   pill
                 >
                   {{ sob[alternativeField] }}
@@ -146,5 +146,8 @@ export default class SonOfBitchItem extends Vue {
     }
     margin-top: 10px;
   }
+}
+.b-badge-black {
+  background-color: black;
 }
 </style>
