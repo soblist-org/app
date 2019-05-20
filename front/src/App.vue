@@ -9,7 +9,10 @@
       >
         <b-container>
           <b-navbar-brand href="#">
-            <b-img src='https://res.cloudinary.com/dnuewvqib/image/upload/v1558329391/soblist/sblocklist%E5%89%AF%E6%9C%AC_ayftb3.png'>
+            <b-img
+              width='200'
+              src='https://res.cloudinary.com/dnuewvqib/image/upload/v1558329391/soblist/sblocklist%E5%89%AF%E6%9C%AC_ayftb3.png'
+            >
             </b-img>
             {{ $t('siteTitle')}}
           </b-navbar-brand>
@@ -57,15 +60,15 @@
 import { Vue, Component } from "vue-property-decorator";
 @Component({})
 export default class App extends Vue {
-  languageDropdownText: string = "简体中文";
+  languageDropdownText: string = "English";
   // TODO for enhance
   zhClick() {
-    this.languageDropdownText = "简体中文";
+    this.languageDropdownText = "English";
     this.$i18n.locale = "zh-cn";
     // TODO document title
   }
   enClick() {
-    this.languageDropdownText = "English";
+    this.languageDropdownText = "简体中文";
     this.$i18n.locale = "en";
   }
 
@@ -76,8 +79,11 @@ export default class App extends Vue {
 </script>
 
 <style lang="scss">
+body {
+  background-color: #f3f3f3;
+}
 .navbar {
-  background-color: white;
+  background-color: black;
   padding: 15px 0px;
   margin-bottom: 10px;
   .link {
@@ -86,7 +92,10 @@ export default class App extends Vue {
     }
   }
 }
-.b-navbar-black {
+.navbar-black {
   background-color: black;
+}
+.card {
+  border-radius: 0px;
 }
 </style>

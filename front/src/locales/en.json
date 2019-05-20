@@ -18,5 +18,8 @@
   "companyName": "Company Name",
   "job": "Job",
   "major": "Major",
-  "socialMedia": "Social Media"
+  "socialMedia": "Social Media",
+  "archiveUrl": "Archive Url",
+  "refUrls": "Reference Urls",
+  "case": "Case"
 }

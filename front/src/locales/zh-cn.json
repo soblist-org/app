@@ -18,5 +18,10 @@
   "companyName": "公司名称",
   "job": "工作",
   "major": "专业",
-  "socialMedia": "社交媒体"
+  "socialMedia": "社交媒体",
+  "archiveUrl": "存档",
+  "refUrls": "引用来源",
+  "year": "年",
+  "month": "月",
+  "day": "日"
 }

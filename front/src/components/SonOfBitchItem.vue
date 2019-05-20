@@ -16,9 +16,9 @@
             </a>
             <span
               class='capitalize'
-              v-show='enName'
+              v-show='sob.enName'
             >
-              ( {{ enName }} )
+              ( {{ sob.enName }} )
             </span>
           </h3>
           <div class="meta">
@@ -30,41 +30,79 @@
       </b-row>
 
       <b-row>
-        <b-collapse
-          id="shit"
-          v-model="detailVisible"
-        >
+        <b-collapse v-model="detailVisible">
           <div class="detail">
             <div class="sub-header">
               {{ $t('alternatives') }}
             </div>
-            <b-list-group class="alternative-fields">
-              <b-list-group-item
-                class='d-flex justify-content-between align-items-center'
+
+            <div class="meta">
+              <div
                 v-for="(alternativeField, index) in availableFields"
                 :key="index"
               >
-                <label>{{ $t(alternativeField) }}</label>
-                <b-badge
-                  variant="black"
-                  pill
-                >
-                  {{ sob[alternativeField] }}
-                </b-badge>
-              </b-list-group-item>
-
-            </b-list-group>
+                <i>{{ $t(alternativeField) }}</i>: <i> {{ sob[alternativeField] }}</i>
+              </div>
+            </div>
 
             <div class="sub-header">
               {{ $t('cases') }}
             </div>
             <div class="cases">
-              <div
+              <b-card
                 v-for="(item, index) in sob.cases"
                 :key="index"
               >
-                {{ item }}
-              </div>
+                <h2>{{ $t('case') + ' #' + index}}</h2>
+                <!-- META -->
+                <div class="meta">
+                  <span
+                    v-for="(meta, index) in caseMetaFields"
+                    :key='index'
+                  >
+                    <i>{{ $t(meta) }}</i>: <i> {{ item.meta[meta] }} </i>
+                  </span>
+                  <span>
+                    <i>{{ $t('refUrls') }}</i>:
+                    <ul>
+                      <li
+                        v-for="(link, index) in item.meta.refUrls"
+                        :key='index'
+                      >
+                        <a :href="link">{{ link }}</a>
+                      </li>
+                    </ul>
+                  </span>
+                </div>
+                <!-- CONTENT -->
+                <div class="content">
+                  <h3>
+                    {{ item.title }}
+                  </h3>
+                  <p>
+                    {{ item.content }}
+                  </p>
+                </div>
+                <!-- IMAGES -->
+                <div class="images">
+                  <b-carousel
+                    id="carousel-1"
+                    :interval="4000"
+                    no-animation
+                    controls
+                    indicators
+                    :img-width="300"
+                    style="text-shadow: 1px 1px 2px #333;"
+                  >
+                    <b-carousel-slide
+                      v-for="(img, index) in item.images"
+                      :key="index"
+                      :img-src='img'
+                    >
+                    </b-carousel-slide>
+                  </b-carousel>
+                </div>
+              </b-card>
             </div>
           </div>
         </b-collapse>
@@ -78,8 +116,6 @@
 import { Vue, Component, Prop } from "vue-property-decorator";
 import { SonOfBitch } from "@/store/state";
 
-const pinyin = require("chinese-to-pinyin");
-
 @Component({})
 export default class SonOfBitchItem extends Vue {
   alternativeFields: string[] = [
@@ -92,6 +128,14 @@ export default class SonOfBitchItem extends Vue {
     "job",
     "major"
   ];
+  caseMetaFields: string[] = [
+    "year",
+    "month",
+    "day",
+    "victim",
+    "addr",
+    "archiveUrl"
+  ];
   detailVisible: boolean = false;
 
   @Prop(Object) sob!: SonOfBitch;
@@ -101,28 +145,14 @@ export default class SonOfBitchItem extends Vue {
       Object.keys(this.sob).includes(v)
     );
   }
-
-  get enName() {
-    const enWords = (pinyin(this.sob.name, { noTone: true }) as string).split(
-      " "
-    );
-    switch (enWords.length) {
-      case 2:
-        return enWords.reverse().join(" ");
-        break;
-      case 3:
-        enWords.push(enWords.shift() as string);
-        return enWords.join(" ");
-      default:
-        return enWords.join(" ");
-        break;
-    }
-  }
 }
 </script>
 
 <style lang="scss">
 .sob-item {
+  background-color: white;
+  border: none;
+  padding: 10px 0;
   margin-bottom: 10px;
   .capitalize {
     text-transform: capitalize;
@@ -147,7 +177,12 @@ export default class SonOfBitchItem extends Vue {
     margin-top: 10px;
   }
 }
-.b-badge-black {
+.badge-black {
   background-color: black;
+  color: white;
+}
+.card {
+  border-radius: 0px !important;
+  border: none;
 }
 </style>
