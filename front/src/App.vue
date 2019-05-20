@@ -54,20 +54,15 @@
 </template>
 
 <script lang="ts">
-import {
-  Vue,
-  Component,
-  Prop,
-  Emit,
-  Watch,
-  Model
-} from "vue-property-decorator";
+import { Vue, Component } from "vue-property-decorator";
 @Component({})
 export default class App extends Vue {
   languageDropdownText: string = "简体中文";
+  // TODO for enhance
   zhClick() {
     this.languageDropdownText = "简体中文";
     this.$i18n.locale = "zh-cn";
+    // TODO document title
   }
   enClick() {
     this.languageDropdownText = "English";

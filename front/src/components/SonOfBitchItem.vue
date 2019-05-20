@@ -88,6 +88,7 @@ export default class SonOfBitchItem extends Vue {
     "isMarried",
     "schoolName",
     "companyName",
+    "socialMedia",
     "job",
     "major"
   ];
