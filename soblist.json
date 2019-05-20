@@ -11,9 +11,7 @@
     "cases": [
       {
         "meta": {
-          "year": 2018,
-          "month": 7,
-          "day": 29,
+          "date": "2018-08-01",
           "addr": "湖北省黄冈市浠水县, 湖北省武汉市, 广东省深圳市",
           "archiveUrl": "https://archive.org/details/soblist-org/yefeiyang",
           "refUrls": [
@@ -45,9 +43,7 @@
     "cases": [
       {
         "meta": {
-          "year": null,
-          "month": null,
-          "day": null,
+          "date": null,
           "addr": "重庆、成都",
           "archiveUrl": null,
           "refUrls": [

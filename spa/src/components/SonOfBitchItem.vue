@@ -129,9 +129,7 @@ export default class SonOfBitchItem extends Vue {
     "major"
   ];
   caseMetaFields: string[] = [
-    "year",
-    "month",
-    "day",
+    "date"
     "victim",
     "addr",
     "archiveUrl"

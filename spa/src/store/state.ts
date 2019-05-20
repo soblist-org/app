@@ -1,15 +1,13 @@
 export interface Meta {
-  year: string;
-  month: string;
-  day: string;
+  date: string;
+  refUrls: string[];
+  archiveUrl: string;
   victim?: string;
 }
 export interface Case {
   meta: Meta;
   title: string;
   content: string;
-  refUrls: string[];
-  archiveUrl: string;
   images?: string[];
 }
 export interface SonOfBitch {
