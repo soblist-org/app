@@ -1,6 +1,6 @@
 # App for soblist.org | 渣男速查清单
 
-<p align="center">
+<p align="left">
     <a href="https://travis-ci.org/soblist-org/app" alt="Pipeline">
         <img src="https://travis-ci.org/soblist-org/app.svg?branch=master" /></a>
     <a href="#" alt="Contributors">
