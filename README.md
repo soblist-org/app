@@ -1,6 +1,17 @@
 # App for soblist.org | 渣男速查清单
 
-[![Build Status](https://travis-ci.org/soblist-org/app.svg?branch=master)](https://travis-ci.org/soblist-org/app)
+<p align="center">
+    <a href="https://travis-ci.org/soblist-org/app" alt="Pipeline">
+        <img src="https://travis-ci.org/soblist-org/app.svg?branch=master" /></a>
+    <a href="#" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/soblist-org/app.svg" /></a>
+    <a href="#" alt="Last Commit">
+        <img src="https://img.shields.io/github/last-commit/soblist-org/app.svg" /></a>
+    <a href="#" alt="Repo Size">
+        <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/soblist-org/app.svg" /></a>
+    <a href="#" alt="Top language">
+        <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/soblist-org/app.svg" /></a>
+</p>
 
 随着 PUA (Pick up artist) 在男士圈中的流行，渣男越来越多。女性朋友们如果在恋爱中遇到渣男，轻则被骗炮、玩弄感情，重则人财两空。
 
