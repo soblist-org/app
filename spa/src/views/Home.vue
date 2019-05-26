@@ -25,7 +25,7 @@
     <h4>Raw contents:</h4>
     <ul>
         <li v-for="(item, index) in sobItems">
-            <a :href="'https://www.soblist.org/raw/sob_' + index">{{ item.name }}({{ item.enName  }})</a>
+            <a :href="'https://www.soblist.org/raw/sob_' + index + '.html'">{{ item.name }}({{ item.enName  }})</a>
         </li>
     </ul>
     </p>
