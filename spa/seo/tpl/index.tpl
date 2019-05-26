@@ -8,24 +8,18 @@
     <meta name="author" content="Soblist Organization" />
     <meta
       name="description"
-      content="渣男曝光:{{ name }}({{ enName }}), {{ schoolName }}{{ addr }}{{
-        idNumber
-      }}{{ birth }}{{ addedDate }}"
+      content="渣男曝光:{{ name }}({{ enName }}), {{ schoolName }}{{ addr }}{{idNumber}}{{ birth }}{{ addedDate }}"
     />
     <meta
       name="keywords"
-      content="渣男,渣男曝光, {{ name }}, {{ enName }}, {{ schoolName }}, {{
-        idNumber
-      }}"
+      content="渣男,渣男曝光, {{ name }}, {{ enName }}, {{ schoolName }}, {{idNumber}}"
     />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="渣男曝光-{{ name }}-{{ enName }}" />
     <meta
       property="og:description"
-      content="渣男曝光:{{ name }}({{ enName }}), {{ schoolName }}{{ addr }}{{
-        idNumber
-      }}{{ birth }}{{ addedDate }}"
+      content="渣男曝光:{{ name }}({{ enName }}), {{ schoolName }}{{ addr }}{{idNumber}}{{ birth }}{{ addedDate }}"
     />
     <meta property="og:url" content="https://www.soblist.org" />
     <meta property="og:site_name" content="soblist.org" />
@@ -44,9 +38,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:description"
-      content="渣男曝光:{{ name }}({{ enName }}), {{ schoolName }}{{ addr }}{{
-        idNumber
-      }}{{ birth }}{{ addedDate }}"
+      content="渣男曝光:{{ name }}({{ enName }}), {{ schoolName }}{{ addr }}{{idNumber}}{{ birth }}{{ addedDate }}"
     />
 
     <meta
