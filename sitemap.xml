@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.soblist.org</loc>
+    <lastmod>2019-05-26T12:21:15.367Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.soblist.org/raw/sob_0.html</loc>
+    <lastmod>2018-08-01</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.soblist.org/raw/sob_1.html</loc>
+    <lastmod>2017-03-09</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
