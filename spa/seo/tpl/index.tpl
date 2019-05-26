@@ -2,11 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta http-equiv="refresh" content="0; url=https://www.soblist.org" />
-
-    <title>渣男曝光-{{ name }}-{{ enName }}</title>
+    <title>{{ name }}-{{ enName }}-{{ schoolName }}-渣男曝光-渣男集中营</title>
 
     <meta name="author" content="Soblist Organization" />
     <meta
@@ -84,7 +81,15 @@
     {{ meta.refUrls }}
     <h2>事件描述</h2>
     <h3>{{ title }}</h3>
-    <p>{{ content }}</p>
+    <p>
+        {{content}}
+    </p>
     {{/each}}
+
+    <footer style='text-align: center;' >
+        <p>
+            <a href=https://www.soblist.org>soblist.org</a>
+        </p>
+    </footer>
   </body>
 </html>
