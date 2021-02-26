@@ -29,5 +29,5 @@
 
 ## Hosting Mirrors
 
-- [soblisr.org](https://soblist.org)
-- [jerk.icu](https://jerk.icu)
+- [soblisr.org](https://www.soblist.org)
+- [jerk.icu](https://www.jerk.icu)
