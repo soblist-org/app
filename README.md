@@ -1,4 +1,4 @@
-# App for soblist.org | 渣男速查清单
+# App for soblist-org | 渣男速查清单
 
 <p align="left">
     <a href="https://travis-ci.org/soblist-org/app" alt="Pipeline">
@@ -27,3 +27,7 @@
 
 渣男信息在这个仓库中维护：[github/soblist-org/list](https://github.com/soblist-org/list)，欢迎提交 PR
 
+## Hosting Mirrors
+
+- [soblisr.org](https://soblist.org)
+- [jerk.icu](https://jerk.icu)
